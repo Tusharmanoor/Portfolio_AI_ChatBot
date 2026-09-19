@@ -6,7 +6,7 @@ import { SectionHeading } from "./SectionHeading";
 
 const channels = [
   { label: "Gmail", value: profile.email, href: `mailto:${profile.email}`, Icon: Mail },
-  { label: "LinkedIn", value: "tushar-manoor", href: profile.linkedin, Icon: Linkedin },
+  { label: "LinkedIn", value: "Tushar Manoor", href: profile.linkedin, Icon: Linkedin },
   { label: "GitHub", value: "Tusharmanoor", href: profile.github, Icon: Github },
   { label: "Phone", value: profile.phone, href: `tel:${profile.phone.replace(/\s/g, "")}`, Icon: Phone },
 ];

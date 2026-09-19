@@ -5,7 +5,7 @@ export const profile = {
   titles: ["Java Backend Developer", "Full-Stack Developer", "Generative AI"],
   phone: "+91-8595728626",
   email: "tusharm0809@gmail.com",
-  linkedin: "https://linkedin.com/in/tushar-manoor",
+  linkedin: "https://www.linkedin.com/in/tushar-manoor-backenddeveloper",
   github: "https://github.com/Tusharmanoor",
   summary:
     "B.Tech Computer Science student with a strong foundation in Java, Spring Boot, REST API development, MySQL, Spring Security, JWT, and Data Structures & Algorithms. Independently built a full-stack recruitment platform using React and Spring Boot, with an AI-powered resume screening and job matching workflow using Python, FastAPI, and Generative AI. Currently building a portfolio AI chatbot using React, Spring Boot, FastAPI, LLM API calls, prompt engineering, Pydantic, PDF processing, and structured JSON outputs.",
