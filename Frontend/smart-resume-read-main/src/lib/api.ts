@@ -1,11 +1,6 @@
-/**
- * Single place where the frontend talks to the Spring Boot backend.
- * Base URL comes from VITE_API_BASE_URL (e.g. http://localhost:8080).
- */
-
 export const API_BASE_URL: string =
   (import.meta.env['VITE_API_BASE_URL'] as string | undefined)?.replace(/\/+$/, "") ||
-  "http://localhost:8080";
+  "https://portfolio-ai-chatbot-backend-qf1w.onrender.com";
 
 export interface ChatRequest {
   question: string;
