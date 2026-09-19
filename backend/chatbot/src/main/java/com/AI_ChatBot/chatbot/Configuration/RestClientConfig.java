@@ -10,7 +10,7 @@ public class RestClientConfig {
     @Bean
     public RestClient restClient() {
         return RestClient.builder()
-                .baseUrl("http://127.0.0.1:8000")
+                .baseUrl("https://portfolio-ai-chatbot-dw0g.onrender.com")
                 .build();
     }
 }
